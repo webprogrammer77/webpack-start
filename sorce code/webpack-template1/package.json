@@ -1,0 +1,25 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "my-template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "webprogrammer77",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "path": "^0.12.7",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
+}
