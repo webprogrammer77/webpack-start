@@ -19,23 +19,27 @@
       <div class="content-wrapper">
 
         <!--  expamle section -->
-        <section id="main">
-          <div class="container">
-            <h1>Webpack</h1>
-            <img src="/assets/img/dog.jpg">
-            <!-- toggle expamle component -->
-            <button @click="showExampleComponent = !showExampleComponent">Toggle Vue Example Component</button>
-          </div>
-        </section>
+       
         <!-- expamle component -->
         <example-component v-if="showExampleComponent"></example-component>
-
+        <!-- <example-component ></example-component> -->
+				<!-- toggle expamle component -->
+				<button @click="showExampleComponent = !showExampleComponent">Toggle Vue Example Component</button>
       </div> <!-- end content wrapper -->
 
     <footer></footer>
 
     </div> <!-- end #app wrapper -->
-  </div> <!-- end main wrapper -->
+	</div> <!-- end main wrapper -->
+<script>
+// 	var app = new Vue({
+//   el: '#app',
+//   data: {
+//     title: 'Webpack',
+//     showExampleComponent: true
+// 	}
+// });
+</script>
 
 </body>
 </html>
